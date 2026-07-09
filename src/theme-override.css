@@ -1,0 +1,26 @@
+:root {
+    --color-primary: #6658f3;
+    --color-accent: #5747e8;
+    --color-accent-light: #786cf1;
+    --color-primary-text: #4b3fc2;
+    --color-secondary: #f8f7fc;
+}
+
+.bg-\[\#6658f3\] { background-color: var(--color-primary) !important; }
+.bg-\[\#5747e8\] { background-color: var(--color-accent) !important; }
+.bg-\[\#786cf1\] { background-color: var(--color-accent-light) !important; }
+.bg-\[\#f8f7fc\] { background-color: var(--color-secondary) !important; }
+
+.hover\:bg-\[\#5747e8\]:hover { background-color: var(--color-accent) !important; }
+.hover\:bg-\[\#786cf1\]:hover { background-color: var(--color-accent-light) !important; }
+
+.text-\[\#6658f3\] { color: var(--color-primary) !important; }
+.text-\[\#4b3fc2\] { color: var(--color-primary-text) !important; }
+
+.hover\:text-\[\#5747e8\]:hover { color: var(--color-accent) !important; }
+
+.border-\[\#6658f3\] { border-color: var(--color-primary) !important; }
+.border-\[\#6658f3\]\/20 { border-color: rgb(102 88 243 / 0.2) !important; }
+.hover\:border-\[\#6658f3\]:hover { border-color: var(--color-primary) !important; }
+
+.fill-\[\#6658f3\] { fill: var(--color-primary) !important; }
